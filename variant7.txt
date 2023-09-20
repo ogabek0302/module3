@@ -1,0 +1,56 @@
+Varaint - 7 
+
+1 - Model xatolikni baholash haqida malumot bering.
+2 - ishlab chiqilgan modeldan foydalanish ketma ketligini tushuntirib bering
+3 - RNN va CNN farqini tushuntirib bering
+
+1: 
+Model xatolikni baholash – bu modelning to'g'ri yoki xato javob berishini aniqlash 
+uchun amalga oshiriladigan jarayon. Buni tushunish osonroq: misol uchun, siz modelga 
+biror masalani yechishni buyurishingiz va uning javobini tekshirishingiz mumkin. Agar 
+javob to'g'ri bo'lsa, model xatosiz ishlagan bo'ladi. Aks holda, xatolik bo'lib qoladi. 
+Bu xatolikni o'lchash va tahlil qilish modelning takomillashtirilishiga yordam beradi. 
+Lekin, har bir modelda kam yoki ko'p, lekin xatoliklar bo'lishi tabiiy hol – hech qanday 
+model mukammal emas. Ba'zi vaqtlar, xatoliklarni baholash qiyin bo'lishi mumkin, chunki 
+har bir vaziyatga qarab, to'g'ri yoki xato deb baholash qiyin bo'lishi mumkin. 
+Ushbu sababdan, model xatoliklarini baholash juda muhim va qiyin jarayon bo'lishi mumkin.
+
+
+2:
+Modeldan foydalanish ketma-ketligi:
+
+A. Modelni Yuklash: Avvalo, sizga kerak bo'lgan modelni kompyuteringizga yuklab olishingiz kerak.
+  
+B. Kirish Ma'lumotlarini Teyyarlash: Modelning qabul qila olishi uchun ma'lumotlarni kerakli formatda 
+tayyorlang. Misol uchun, agar siz rasmni tasniflovchi model bilan ishlamoqchi bo'lsangiz, rasmni kerakli
+o'lcham va formatga keltiring.
+
+C. Modelni Ishtirok Etdirish: Yuklab olingan modelga kerakli ma'lumotlarni berib, u yordamida 
+kerakli hisoblamalarni amalga oshiring.
+
+D. Natijalarni Olmoq: Modeldan kelgan javobni olmoq va uni tahlil qilmoq.
+
+E. Natijalarni Tahlil Qilish: Modelning berdiği natijani to'g'ri yoki xato ekanligini 
+tekshiring. Agar model to'g'ri ishlasa, siz o'sha javobni qabul qilishingiz mumkin. 
+Aks holda, kerakli to'g'rilamalarni amalga oshirish kerak bo'ladi.
+
+G. Modelni Takroran Iqtidorini Tekshirish: Modelni yangi ma'lumotlar bilan takroran 
+sinab ko'rish, uning iqtidorini aniqlashga yordam beradi.
+
+Bu ketma-ketlik asosan umumiy modeldan foydalanish jarayonini aks ettiradi. 
+Ammo har bir maxsus model uchun bu jarayonning ba'zi bosqichlari o'zgartirilishi mumkin.
+
+3: 
+RNN va CNN ikkita turli nevral tarmoq modellari bo'lib, ularning maqsadlari va ishlaydigan prinsiplari farq qiladi.
+
+1. RNN (Recurrent Neural Network) - Qaytariluvchi Nevrallar Tarmog'i: 
+   - Maqsadi: Vaqti chiziqli ma'lumotlar bilan (masalan, matn yoki audio) ishlashga mos keladi.
+   - Xususiyati: Har bir nod (neyron) o'zidan avvalgi nodning yuborgan ma'lumotini qabul qiladi, bu o'zaro bog'lanish orqali vaqti chiziqli bog'lanishlarni emalga oshiradi.
+   - Yordam Beradigan Masalalar: Matn tahlili, audio tahlili va hokazo.
+
+2. CNN (Convolutional Neural Network) - Konvolutsiyali Nevrallar Tarmog'i: 
+   - Maqsadi: Rasmlar yoki videosimon ma'lumotlar bilan ishlashga yaratilgan.
+   - Xususiyati: Konvolutsiya (tutashuv) qatlamini ishlatadi, bu qatlam rasmning hududiy xususiyatlarini aniqlashda yordam beradi.
+   - Yordam Beradigan Masalalar: Rasm tasnifi, ob'ekt aniqlash va hokazo.
+
+Qisqacha aytganda, RNN vaqti chiziqli ma'lumotlar bilan ishlashga mos, CNN esa spatialis (ko'rsatgich) ma'lumotlar bilan ishlash uchun yaratilgan. Bu ikki tarmoqning struktural va funktsional xususiyatlari farq qiladi, bu esa ularni turli xil masalalarni hal qilishga mos qiladi.
